@@ -84,19 +84,20 @@ h4 {
   padding: 2rem 0 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  color: #bcaece;
+  color: #868461;
   font-size: 1.5rem;
 }
 
 h4:hover {
-  color: #fa00b6;
+  color: #eeedc6;
 }
 
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #7510f7;
+  color: rgb(245, 245, 245);;
   font-size: 2.5rem;
-  text-shadow: 3px 3px 5px #fa00b6;
+  text-shadow: 3px 3px 5px rgb(26, 24, 16);
+  border: rgb(104, 103, 103);
   letter-spacing: 1px;
   text-transform: uppercase;
 }
