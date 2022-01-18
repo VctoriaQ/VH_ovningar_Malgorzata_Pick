@@ -18,7 +18,8 @@
         <li>
           <a
             href="https://docs.github.com/en/get-started/quickstart/github-glossary"
-            target="_blank">Glossary on GitHub</a
+            target="_blank"
+            >Glossary on GitHub</a
           >
         </li>
       </ul>
@@ -53,10 +54,6 @@
             the remote version so that you can push your local changes to the
             remote to keep them synced when you're online.
           </p>
-        </div>
-      </section>
-      <section>
-        <div class="terms-div">
           <h4>commit</h4>
           <p>
             A commit, or "revision", is an individual change to a file (or set
@@ -87,6 +84,47 @@
             via the command line. A merge can be done through a pull request via
             the GitHub.com web interface if there are no conflicting changes, or
             can always be done via the command line.
+          </p>
+
+          <h4>Working Directory</h4>
+          <p>
+            Working Direktory is the area outside the ".git" directory and here
+            stores all files from the project. We manipulate files here and here
+            saves the last version of every file. Git detects all new files and
+            all changes.
+          </p>
+          <h4>staging</h4>
+          <p>
+            A way to test modifications before they are applied to your actual
+            GitHub Enterprise instance.
+          </p>
+          <h4>HEAD</h4>
+          <p>
+            A defined commit of a branch, usually the most recent commit at the
+            tip of the branch.
+          </p>
+          <h4>revert</h4>
+          <p>
+            When you revert a pull request on GitHub, a new pull request is
+            automatically opened, which has one commit that reverts the merge
+            commit from the original merged pull request. In Git, you can revert
+            commits with git revert.
+          </p>
+          <h4>reset</h4>
+          <p>
+            A hard reset can be done if you're the only one using the local and
+            remote repository, or if the reset removes commits that have not yet
+            been pushed to a shared remote. In this case, you're the only one
+            affected by the hard reset, so it's relatively safe to do. Just make
+            sure you want drop the commits in question before you do the reset.
+          </p>
+          <h4>Skillnade mellan fork och clone</h4>
+          <p>
+            Både Git fork och clone skaparar kopior av det reposetory men de
+            erbjuder olika nivåer av åtkomst isolring och kontroll över. En fork
+            skapar en självständig kopia av den orginala reposetory. Medans En
+            clone skapar en länkad kopia som är synkroniserad med orginal
+            repository.
           </p>
         </div>
       </section>
