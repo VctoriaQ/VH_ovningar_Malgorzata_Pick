@@ -84,7 +84,7 @@ h4 {
   padding: 2rem 0 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  color: #7510f7;
+  color: #bcaece;
   font-size: 1.5rem;
 }
 
@@ -103,5 +103,5 @@ h1 {
 
 .names {
   padding-top: 2rem;
-  
+  color: rgb(100, 98, 98);
 }
