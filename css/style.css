@@ -5,6 +5,7 @@
 
 body {
   font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
+  color: rgb(100, 98, 98);
 }
 
 main {
@@ -24,20 +25,20 @@ nav {
   list-style-type: none;
   height: 2.5rem;
   padding: 0.5rem;
-  background-color: #7510f7;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+  background-color: #bbc7c9;
+  box-shadow: 0px 1px 5px rgba(13, 13, 14, 0.7);
 }
 
 .nav-container a {
   font-size: 1.15rem;
-  color: white;
+  color: rgb(253, 253, 253);
   text-align: center;
   padding: 0.5rem 1.5rem;
   text-decoration: none;
 }
 
 .nav-container a:hover {
-  border-bottom: solid 3px #fa00b6;
+  border-bottom: solid 3px #e4d580;
 }
 
 header {
@@ -51,7 +52,7 @@ section {
 
 .info-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin: auto;
   width: 60%;
@@ -83,19 +84,25 @@ h4 {
   padding: 2rem 0 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  color: #7510f7;
+  color: #868461;
   font-size: 1.5rem;
 }
 
 h4:hover {
-  color: #fa00b6;
+  color: #eeedc6;
 }
 
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #7510f7;
+  color: rgb(245, 245, 245);;
   font-size: 2.5rem;
-  text-shadow: 3px 3px 5px #fa00b6;
+  text-shadow: 3px 3px 5px rgb(26, 24, 16);
+  border: rgb(104, 103, 103);
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.names {
+  padding-top: 2rem;
+  color: rgb(100, 98, 98);
 }
